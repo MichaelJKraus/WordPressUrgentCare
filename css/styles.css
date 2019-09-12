@@ -133,7 +133,7 @@ section {
   text-decoration: none;
 }
 
-.btncolor1 {
+/* .btncolor1 {
   position: relative;
   text-align: center;
   background: linear-gradient(-45deg, #f403d1, #64b5f6);
@@ -164,7 +164,7 @@ section {
   padding: 10px;
   margin: 50px;
   width: 100px;
-}
+} */
 
 .emergency {
   margin-bottom: 25px;
@@ -189,4 +189,35 @@ section {
   background-size: cover;
   background-attachment: fixed;
   z-index: 2;
+}
+
+.size {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #990000;
+}
+
+h4 {
+  font-family: "Anton", sans-serif;
+}
+
+.ptext {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  margin: 10px;
+}
+
+.form {
+  margin-left: 39px;
+}
+
+.email {
+  margin-left: 75px;
 }
