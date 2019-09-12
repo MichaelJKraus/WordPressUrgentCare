@@ -35,6 +35,7 @@ footer{
     height: 100px;
     background-color: #073763; 
 }
+
 .logo{
     height: 97px;
 }
@@ -49,4 +50,35 @@ footer{
 /* Ending Footer */
 main{
     height: 1000px;
+}
+
+.size {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #990000;
+}
+
+h4 {
+  font-family: "Anton", sans-serif;
+}
+
+.ptext {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  margin: 10px;
+}
+
+.form {
+  margin-left: 39px;
+}
+
+.email {
+  margin-left: 75px;
 }
