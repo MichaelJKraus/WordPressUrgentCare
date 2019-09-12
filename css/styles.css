@@ -19,17 +19,22 @@ colors {
     color: #e2ecf5;
     color: #45818e;
 }
-
+/* Global %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+body {
+    background-color: #073763;
+}
 /*HEADER $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .glyphicon {
     line-height: 30;
     color: #990000;
 }
+
 header {
     height: 100px;
     background-color: #073763;
     background:-moz-radial-gradient(circle, #999999, #45818e, #073763);
 }
+
 header h1 {
     color: #990000;
     font-family: 'Anton', sans-serif;
@@ -40,11 +45,37 @@ header h1 {
 #logoImage {
     height: 95px;
 }
+/* Ticker &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-#logo-01 {
-    padding-top: 175PX;
-}
+  #tickerContainer{
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  #tickerWrap {
+    width: 100%;
+    padding-left: 100%;
+    background-color: #073763;
+  }
+  #tickerMove {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 10s;
+  }
+  #tickerMove:hover{
+    animation-play-state: paused;
+  }
+  #tickerItem{
+    display: inline-block;
+    padding: 0 2rem;
+    color: #e2ecf5;
+  }
 
+/* Carousel &&&&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 #carouselFormat {
     font-family: 'Anton', sans-serif;
     color: #e2ecf5;
@@ -62,11 +93,14 @@ header h1 {
 .carousel-caption {
     z-index: 20;
     padding-bottom: 20px;
+    background-color: rgba(0,0,0, .8);
+    border-radius: 20px;
 }
 
 .carousel-inner .item {
+    z-index: -90;
     width: 100%;
-    height: 90vh;
+    height: 87vh;
     background-size: cover;
     background-position: center;
 }
@@ -84,7 +118,7 @@ header h1 {
 }
 
 .main_img4 {
-    background-image: url("../img/WordpressCodeWarning.png");
+    background-image: url("../img/WordpressCodeWarning3.png");
 }
 
 .main_logo {
@@ -108,4 +142,34 @@ header h1 {
 .carousel-caption p {
     color: #e2ecf5;
     font-size: 20px;
+}
+
+/* Vulnerability Sections %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+#wordpressVulnerabilities {
+    background-color: #073763;
+}
+
+#wordpressVulnerabilities h1 {
+    font-family: 'Anton', sans-serif;
+    color: #e2ecf5;
+}
+
+#wordpressVulnerabilities p {
+    font-family: 'Poppins', sans-serif;
+    color: #e2ecf5;
+}
+
+#wordpressInfo1 {
+    background:-moz-linear-gradient(left, #45818e, #073763);
+    background-color: #45818e;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#wordpressInfo2 {
+    background:-moz-linear-gradient(right, #45818e, #073763);
+    background-color: #45818e;
+    border-radius: 20px;
+    margin: 10px;
 }
