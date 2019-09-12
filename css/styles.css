@@ -1,6 +1,25 @@
-@import url("https://fonts.googleapis.com/css?family=Anton%7CPoppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Anton%7CPoppins&display=swap');
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#45818e; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  } 
 
-/* font-family: 'Poppins', sans-serif;
+/* 
+font-family: 'Poppins', sans-serif;
 font-family: 'Anton', sans-serif;
 
 colors {
@@ -9,186 +28,28 @@ colors {
     color: #073763; 
     color: #e2ecf5;
     color: #45818e;
-} */
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif !important;
 }
 
-section {
-  width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  padding: 140px 0;
+/* Starting Footer */
+footer{
+    height: 100px;
+    background-color: #073763; 
 }
 
-.card {
-  position: relative;
-  max-width: 300px;
-  height: auto;
-  background: linear-gradient(-45deg, #fe0847, #feae3f);
-  border-radius: 15px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, .);
-  transition: 0.5s;
+.logo{
+    height: 97px;
 }
-
-.col-sm-4:nth-child(1) .card,
-.col-sm-4:nth-child(1) .card .title .fa {
-  background: linear-gradient(-45deg, #f403d1, #64b5f6);
+.words{
+    font-family: 'Poppins', sans-serif; 
+    color: #e2ecf5;
+    font-size: 17px;
 }
-
-.col-sm-4:nth-child(2) .card,
-.col-sm-4:nth-child(2) .card .title .fa {
-  background: linear-gradient(-45deg, #ffec61, #f321d7);
+.fab{
+    color:#45818e;
 }
-
-.col-sm-4:nth-child(3) .card,
-.col-sm-4:nth-child(3) .card .title .fa {
-  background: linear-gradient(-45deg, #24ff72, #9a4eff);
-}
-
-.card:before {
-  content: "";
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 40%;
-  background: rgba(255, 255, 255, 0.1);
-  z-index: 1;
-  transform: skewY(-5deg) scale(1.5);
-}
-
-.title .fa {
-  color: #fff;
-  font-size: 60px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 100px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-}
-
-.title h2 {
-  position: relative;
-  margin: 20px 0 0;
-  padding: 0;
-  color: #fff;
-  font-size: 28px;
-  z-index: 2;
-}
-
-.price {
-  position: relative;
-  z-index: 2;
-}
-
-.price h4 {
-  margin: 0;
-  padding: 20px 0;
-  font-size: 60px;
-}
-
-.option {
-  position: relative;
-  z-index: 2;
-}
-
-.option ul {
-  margin: 0;
-  padding: 0;
-}
-
-.option ul li {
-  margin: 0 0 10px;
-  padding: 0;
-  list-style: none;
-  color: #fff;
-  font-size: 16px;
-}
-
-.card a {
-  position: relative;
-  z-index: 2;
-  background: #fff;
-  color: #26262;
-  width: 150px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 40px;
-  display: block;
-  text-align: center;
-  margin: 20px auto 0;
-  font-size: 16px;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.card a:hover {
-  text-decoration: none;
-}
-
-/* .btncolor1 {
-  position: relative;
-  text-align: center;
-  background: linear-gradient(-45deg, #f403d1, #64b5f6);
-  border-radius: 40px;
-  font-size: 20px;
-  padding: 10px;
-  margin: 50px;
-  width: 100px;
-}
-
-.btncolor2 {
-  position: relative;
-  text-align: center;
-  background: linear-gradient(-45deg, #ffec61, #f321d7);
-  border-radius: 40px;
-  font-size: 20px;
-  padding: 10px;
-  margin: 50px;
-  width: 100px;
-}
-
-.btncolor3 {
-  position: relative;
-  text-align: center;
-  background: linear-gradient(-45deg, #24ff72, #9a4eff);
-  border-radius: 40px;
-  font-size: 20px;
-  padding: 10px;
-  margin: 50px;
-  width: 100px;
-} */
-
-.emergency {
-  margin-bottom: 25px;
-  text-align: center;
-  padding: 0;
-}
-
-.img {
-  max-height: 500px;
-  max-width: 500px;
-}
-
-/* #service {
-  background-image: url("../img/code.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 2;
-} */
-
-.service {
-  background-image: url("../img/code.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 2;
+/* Ending Footer */
+main{
+    height: 1000px;
 }
 
 .size {
