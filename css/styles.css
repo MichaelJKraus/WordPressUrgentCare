@@ -13,155 +13,154 @@ colors {
 
 /*HEADER $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .glyphicon {
-    line-height: 30;
-    color: #990000;
+  line-height: 30;
+  color: #990000;
 }
 
 header {
-    height: 100px;
-    background-color: #073763;
-    background:-moz-radial-gradient(circle, #999999, #45818e, #073763);
+  height: 100px;
+  background-color: #073763;
+  background: -moz-radial-gradient(circle, #999999, #45818e, #073763);
 }
 
 header h1 {
-    color: #990000;
-    font-family: 'Anton', sans-serif;
-    text-shadow: 3px 3px 5px #e2ecf5;
-    font-size: 4.5em;
+  color: #990000;
+  font-family: "Anton", sans-serif;
+  text-shadow: 3px 3px 5px #e2ecf5;
+  font-size: 4.5em;
 }
 
 #logoImage {
-    height: 95px;
+  height: 95px;
 }
 /* Ticker &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-  #tickerContainer{
-    width: 100%;
-    z-index: 1000;
-    overflow: hidden;
-  }
-  #tickerWrap {
-    width: 100%;
-    padding-left: 100%;
-    background-color: #073763;
-  }
-  #tickerMove {
-    display: inline-block;
-    white-space: nowrap;
-    padding-right: 100%;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-name: ticker;
-    animation-duration: 10s;
-  }
-  #tickerMove:hover{
-    animation-play-state: paused;
-  }
-  #tickerItem{
-    display: inline-block;
-    padding: 0 2rem;
-    color: #e2ecf5;
-  }
+#tickerContainer {
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+}
+#tickerWrap {
+  width: 100%;
+  padding-left: 100%;
+  background-color: #073763;
+}
+#tickerMove {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 10s;
+}
+#tickerMove:hover {
+  animation-play-state: paused;
+}
+#tickerItem {
+  display: inline-block;
+  padding: 0 2rem;
+  color: #e2ecf5;
+}
 
 /* Carousel &&&&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 #carouselFormat {
-    font-family: 'Anton', sans-serif;
-    color: #e2ecf5;
+  font-family: "Anton", sans-serif;
+  color: #e2ecf5;
 }
 
 #carouselFormat p {
-    font-family: 'Poppins', sans-serif;
-    color: #e2ecf5;
+  font-family: "Poppins", sans-serif;
+  color: #e2ecf5;
 }
 
 .carousel {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .carousel-caption {
-    z-index: 20;
-    padding-bottom: 20px;
-    background-color: rgba(0,0,0, .8);
-    border-radius: 20px;
+  z-index: 20;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
 }
 
 .carousel-inner .item {
-    z-index: -90;
-    width: 100%;
-    height: 87vh;
-    background-size: cover;
-    background-position: center;
+  z-index: -90;
+  width: 100%;
+  height: 87vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .main_img1 {
-    background-image: url("../img/WordPressLogoBG.png")
+  background-image: url("../img/WordPressLogoBG.png");
 }
 
 .main_img2 {
-    background-image: url("../img/WordPressSinking.jpg")
+  background-image: url("../img/WordPressSinking.jpg");
 }
 
 .main_img3 {
-    background-image: url("../img/WorpressDesk.jpg")
+  background-image: url("../img/WorpressDesk.jpg");
 }
 
 .main_img4 {
-    background-image: url("../img/WordpressCodeWarning3.png");
+  background-image: url("../img/WordpressCodeWarning3.png");
 }
 
 .main_logo {
-    max-height: 300px;
+  max-height: 300px;
 }
 
 /* button */
 
 .btn-primary {
-    color: #e2ecf5;
-    font-family: 'Anton', sans-serif;
-    background-color: #45818e;
-    border-color: transparent;
+  color: #e2ecf5;
+  font-family: "Anton", sans-serif;
+  background-color: #45818e;
+  border-color: transparent;
 }
 
 .btn-primary:hover {
-    background-color: #073763;
-    border-color: transparent;
+  background-color: #073763;
+  border-color: transparent;
 }
 
 .carousel-caption p {
-    color: #e2ecf5;
-    font-size: 20px;
+  color: #e2ecf5;
+  font-size: 20px;
 }
 
 /* Vulnerability Sections %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 #wordpressVulnerabilities {
-    background-color: #073763;
+  background-color: #073763;
 }
 
 #wordpressVulnerabilities h1 {
-    font-family: 'Anton', sans-serif;
-    color: #e2ecf5;
+  font-family: "Anton", sans-serif;
+  color: #e2ecf5;
 }
 
 #wordpressVulnerabilities p {
-    font-family: 'Poppins', sans-serif;
-    color: #e2ecf5;
+  font-family: "Poppins", sans-serif;
+  color: #e2ecf5;
 }
 
 #wordpressInfo1 {
-    background:-moz-linear-gradient(left, #45818e, #073763);
-    background-color: #45818e;
-    border-radius: 20px;
-    margin: 10px;
+  background: -moz-linear-gradient(left, #45818e, #073763);
+  background-color: #45818e;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 #wordpressInfo2 {
-    background:-moz-linear-gradient(right, #45818e, #073763);
-    background-color: #45818e;
-    border-radius: 20px;
-    margin: 10px;
+  background: -moz-linear-gradient(right, #45818e, #073763);
+  background-color: #45818e;
+  border-radius: 20px;
+  margin: 10px;
 }
-
 
 body {
   margin: 0;
@@ -371,9 +370,9 @@ input {
   margin-left: 39px;
 }
 
-.email {
+/* .email {
   margin-left: 75px;
-}
+} */
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -428,4 +427,3 @@ footer {
   background-color: #073763;
   border-radius: 20px;
 }
-
