@@ -240,6 +240,11 @@ input {
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+.anton {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  color: #990000;
+}
 
 /* Starting Footer */
 footer {
@@ -258,3 +263,15 @@ footer {
   color: #45818e;
 }
 /* Ending Footer */
+
+.grade1 {
+  background: -moz-linear-gradient(left, #45818e, #073763);
+  background-color: #073763;
+  border-radius: 20px;
+}
+
+.grade2 {
+  background: -moz-linear-gradient(right, #45818e, #073763);
+  background-color: #073763;
+  border-radius: 20px;
+}
