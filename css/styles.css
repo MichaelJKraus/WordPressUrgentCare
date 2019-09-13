@@ -52,7 +52,7 @@ header h1 {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
-  animation-duration: 10s;
+  animation-duration: 120s;
 }
 #tickerMove:hover {
   animation-play-state: paused;
@@ -62,6 +62,75 @@ header h1 {
   padding: 0 2rem;
   color: #e2ecf5;
 }
+
+
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/* this puts the ticker in the bottom */
+.ticker-wrap {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+  background-color: rgba(#000, 0.9);
+  padding-left: 100%;
+  box-sizing: content-box;
+
+.ticker {
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+   -webkit-animation-name: ticker;
+           animation-name: ticker;
+    -webkit-animation-duration: $duration;
+            animation-duration: $duration;
+
+    &__item {
+      display: inline-block;
+      padding: 0 2rem;
+      font-size: 2rem;
+      color: white;
+    }
+  }
+}
+
+
+
+
 
 /* Carousel &&&&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 #carouselFormat {
@@ -435,3 +504,11 @@ footer {
 .space {
   margin-bottom: 20px;
 }
+
+
+
+
+
+/* Ticker/////////////////////////// */
+
+/*Ticker ends ////////////// */
