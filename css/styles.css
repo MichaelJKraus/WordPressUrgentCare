@@ -13,10 +13,12 @@ colors {
 
 /*HEADER $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .glyphicon {
-    line-height: 30;
+    line-height: 20;
     color: #990000;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 header {
     height: 100px;
     background-color: #073763;
