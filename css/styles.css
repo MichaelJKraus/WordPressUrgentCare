@@ -347,6 +347,7 @@ section {
   background-size: cover;
   background-attachment: fixed;
   z-index: 2;
+  margin-bottom: 20px;
 }
 
 .size {
