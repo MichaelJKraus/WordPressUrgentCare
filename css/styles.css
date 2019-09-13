@@ -5,7 +5,7 @@ font-family: 'Anton', sans-serif;
 colors {
     color: #990000ff;
     color: #999999ff;
-    color: #073763; 
+    color: #073763;
     color: #e2ecf5;
     color: #45818e;
 } */
@@ -80,6 +80,8 @@ header h1 {
 
 .carousel-caption {
   z-index: 20;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 20px;
