@@ -416,6 +416,7 @@ section {
   background-size: cover;
   background-attachment: fixed;
   z-index: 2;
+  margin-bottom: 20px;
 }
 
 .size {
@@ -506,7 +507,7 @@ footer {
 }
 
 .space {
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   margin-right: 72px;
   margin-left: 91px;
 }
