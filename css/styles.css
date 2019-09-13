@@ -396,12 +396,14 @@ input {
   font-family: "Anton", sans-serif;
   text-align: center;
   color: #990000;
+  margin-bottom: 10px;
 }
 
 /* Starting Footer */
 footer {
   height: 100px;
   background-color: #073763;
+  background: -moz-radial-gradient(circle, #999999, #45818e, #073763);
 }
 .logo {
   height: 97px;
@@ -426,4 +428,8 @@ footer {
   background: -moz-linear-gradient(right, #45818e, #073763);
   background-color: #073763;
   border-radius: 20px;
+}
+
+.space {
+  margin-bottom: 20px;
 }
