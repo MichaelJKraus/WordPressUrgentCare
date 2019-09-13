@@ -23,20 +23,83 @@
 
 				</div>
 			</div>
-			<div class="row">
+
+
+
+
+      <!-- Ticker!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
+
+<!--
+      <h1>Pure CSS Ticker (No-JS)</h1>
+  <h2>A smooth horizontal news like ticker using CSS transform on infinite loop</h2> -->
+
+  <!-- <div class="ticker-wrap"> -->
+  <!-- <div class="ticker"> -->
+    <!-- <div class="ticker__item">Message 1/................</div>
+    <div class="ticker__item">Message 2.........................</div>
+    <div class="ticker__item">Message 3...............................</div>
+    <div class="ticker__item">Message 4...............................</div> -->
+
+  <!-- </div> -->
+<!-- </div> -->
+
+
+
+      <!-- <div class="row"> -->
 				<div id="tickerContainer">
-					<div id="tickerWrap">
-						<div id="tickerMove">
-							<div id="tickerItem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-							<div id="tickerItem">Aliquam consequat varius consequat.</div>
-							<div id="tickerItem">Fusce dapibus turpis vel nisi malesuada sollicitudin.</div>
-							<div id="tickerItem">Pellentesque auctor molestie orci ut blandit.</div>
+					<div id="tickerWrap" class="">
+						<div id="tickerMove"class="ticker">
+							<div id="tickerItem" class="ticker__item">   WP prior to 5.2.3 allows XSS in post previews by authenticated users.</div>
+							<div id="tickerItem" class="ticker__item">   In 2018 90% of Content Management Systems hacked were WordPress.</div>
+							<div id="tickerItem" class="ticker__item">   WordPress before 5.2.3 has an issue with URL sanitization in wp_kses_bad_protocol_once in wp-includes/kses.php that can lead to cross-site scripting (XSS) attacks.</div>
+							<div id="tickerItem" class="ticker__item">   50% of hacked WordPress sites in 2018 were due to outdated software, themes and plug-ins.</div>
+              <div id="tickerItem" class="ticker__item">   WordPress before 5.2.3 allows reflected XSS in the dashboard.</div>
+              <div id="tickerItem" class="ticker__item">   50% of WordPress vulnerabilities are related to plug-ins.</div>
+              <div id="tickerItem" class="ticker__item">   In WordPress before 5.2.3, validation and sanitization of a URL in wp_validate_redirect in wp-includes/pluggable.php could lead to an open redirect.</div>
+              <div id="tickerItem" class="ticker__item">   84% of all security vulnerabilities are the result of cross-site scripting or XSS attacks.</div>
+              <div id="tickerItem" class="ticker__item">   WordPress before 5.2.3 allows XSS in shortcode previews.</div>
+              <div id="tickerItem" class="ticker__item">   39% of WordPress Vulnerabilities are because of cross-site scripting (XSS).</div>
+              <div id="tickerItem" class="ticker__item">   WordPress before 5.2.3 allows XSS in stored comments.</div>
+              <div id="tickerItem" class="ticker__item">   44% of WordPress hacking was caused by outdated WordPress sites.</div>
+              <div id="tickerItem" class="ticker__item">   WordPress before 5.1.1 does not properly filter comment content, leading to Remote Code Execution by unauthenticated users in a default configuration.</div>
+              <div id="tickerItem" class="ticker__item">   11% of attacks are caused by WordPress themes.</div>
+              <div id="tickerItem" class="ticker__item">   WordPress before 5.1.1 does not properly filter comment content, leading to Remote Code Execution by unauthenticated users in a default configuration.</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		<!-- </div> -->
 	</header>
+
+<<!--
+
+  WP prior to 5.2.3 allows XSS in post previews by authenticated users.
+  In 2018 90% of Content Management Systems hacked were WordPress.
+  WordPress before 5.2.3 has an issue with URL sanitization in wp_kses_bad_protocol_once in wp-includes/kses.php that can lead to cross-site scripting (XSS) attacks.
+  50% of hacked WordPress sites in 2018 were due to outdated software, themes and plug-ins.
+  WordPress before 5.2.3 allows reflected XSS in the dashboard.
+  50% of WordPress vulnerabilities are related to plug-ins.
+  In WordPress before 5.2.3, validation and sanitization of a URL in wp_validate_redirect in wp-includes/pluggable.php could lead to an open redirect.
+  84% of all security vulnerabilities are the result of cross-site scripting or XSS attacks.
+  WordPress before 5.2.3 allows XSS in shortcode previews.
+  39% of WordPress Vulnerabilities are because of cross-site scripting (XSS).
+  WordPress before 5.2.3 allows XSS in stored comments.
+  11% of attacks are caused by WordPress themes.
+  WordPress before 5.2.3 allows XSS in media uploads because wp_ajax_upload_attachment is mishandled.
+  44% of WordPress hacking was caused by outdated WordPress sites.
+  WordPress before 5.1.1 does not properly filter comment content, leading to Remote Code Execution by unauthenticated users in a default configuration.
+-->
+
+
+
+
+
+
+
+
+
+
+  <!--Ticker!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
 <!-- Carousel $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
 <body>
 
@@ -81,10 +144,10 @@
 					<a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a></p>
 				</div>
 			</div>
-		</div>  
+		</div>
 <!-- Carousel Controls &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 		<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-		  	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+		  	<span class="glyphicon glyphicon-plus fa-lg" aria-hidden="true"></span>
 		  	<span class="sr-only">Previous</span>
 		</a>
 		<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
@@ -105,7 +168,7 @@
 						<div class="col-md-9 col-xs-9 text-center">
 							<h1>Urgent Alert</h1>
 							<p>Roughly 90% of all Content Management Systems (CMS) that were hacked in 2018 were WordPress sites. Hackers gained access to most of the sites through vulnerabilities in themes and plug-ins, lack of proper configuration, and poor website maintenance by webmasters. Over 50% of sites that were hacked, were due to outdated core software, themes and plug-ins. Are your themes, plug-ins and WordPress core software up to date? Find out now, before it is too late. </p>
-						</div> 
+						</div>
 					</div>
 					<div class="col-md-1 col-xs-1">
 					</div>
@@ -115,8 +178,8 @@
 					</div>
 					<div id="wordpressInfo2" class="col-md-10 col-xs-10">
 						<div class="col-md-9 col-xs-9 text-center">
-							<h1>OMAHGERD!!</h1>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, voluptatum blanditiis, accusamus iusto ratione libero vero neque perferendis nesciunt amet unde harum odio? Omnis porro quo magni facere fuga possimus, reiciendis aperiam necessitatibus nulla harum nihil eum quasi earum corrupti ducimus velit labore quaerat odio asperiores itaque dignissimos ipsa nostrum.</p>
+							<h1> E-COMMERCE ATTACKS</h1>
+							<p> Hackers use and deploy backdoor vulnerabilities to gain access to sites and use the site to deploy additional malware operations.  Once a site is infected, the site will either redirect users to a spam-specific pages or unwanted content. Often this will include injected content on popular industry sites such as fashion and entertainment with the goal of monetizing on affiliate marketing.</p>
 						</div>
 						<div class="col-md-3 col-xs-3" >
 								<img class="image-thumbnail" src="img/wpuc-logo-01_160.png" alt="WorPress Urgent Care Logo">
@@ -129,26 +192,26 @@
 		</div>
 	</div>
 <!-- End Carousel&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
-  
+
 		<button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;Top</button>
 		<div class="container">
-				<div class="row grade1">
+				<div class="row grade1 space">
 					<div class="col-md-12">
 						<h2 class="anton">Emergency Room</h2>
 					</div>
 					<div class="col-md-12">
-						<p class="words">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quaerat, sit, exercitationem temporibus ratione ex natus inventore explicabo, beatae nemo quidem quasi sapiente amet quod!</p>
+						<p class="words">Is your WordPress site currently down? Do you believe your site may be affected by a virus, vulnerability or under attack from a hacker? Does your organization want to know how secure your site currently is? Choose the option below that is most fitting, fill out the form with the required information and we will perform an assessment on your site and contact you with a path forward. </p>
 					</div>
 				</div>
 			</div>
-	
+
       <div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4 size"><!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btncolor1" data-toggle="modal" data-target="#myModal">
 				  MY SITES DOWN!
 				</button>
-				
+
 				<!-- Modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				  <div class="modal-dialog" role="document">
@@ -159,14 +222,50 @@
 						<p>PLEASE FILL OUT THIS FORM TO GET HELP.</p>
 					  </div>
 					  <div class="modal-body ptext">
-							<form action="">
-									First name: <input type="text" name="fname"class="form"><br>
-									Last name: <input type="text" name="lname"class="form"><br>
-									Email: <input type="text" class="email"><br>
-									Website Name: <input type="text"><br>
-									Phone Number: <input type="text"><br>
-									<input type="submit" value="Submit">
-								</form>
+							<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://wordpressurgentcare.us4.list-manage.com/subscribe/post?u=909259ef84b6ac78fb169be84&amp;id=34e12b29e3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Submit</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-PHONE">Phone Number </label>
+	<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+</div>
+<div class="mc-field-group">
+	<label for="mce-MMERGE6">Website </label>
+	<input type="url" value="" name="MMERGE6" class=" url" id="mce-MMERGE6">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_909259ef84b6ac78fb169be84_34e12b29e3" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='MMERGE6';ftypes[6]='url';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
 					  </div>
 					  <div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -179,7 +278,7 @@
 				<button type="button" class="btn btn-primary btn-lg btncolor2" data-toggle="modal" data-target="#myModal">
 				  IS MY SITE INFECTED?
 				</button>
-				
+
 				<!-- Modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				  <div class="modal-dialog" role="document">
@@ -189,14 +288,50 @@
 						<h4 class="modal-title" id="myModalLabel"></h4>
 					  </div>
 					  <div class="modal-body ptext">
-							<form action="">
-									First name: <input type="text" name="fname"class="form"><br>
-									Last name: <input type="text" name="lname"class="form"><br>
-									Email: <input type="text" class="email"><br>
-									Website Name: <input type="text"><br>
-									Phone Number: <input type="text"><br>
-									<input type="submit" value="Submit">
-								</form>
+							<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://wordpressurgentcare.us4.list-manage.com/subscribe/post?u=909259ef84b6ac78fb169be84&amp;id=34e12b29e3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Submit</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-PHONE">Phone Number </label>
+	<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+</div>
+<div class="mc-field-group">
+	<label for="mce-MMERGE6">Website </label>
+	<input type="url" value="" name="MMERGE6" class=" url" id="mce-MMERGE6">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_909259ef84b6ac78fb169be84_34e12b29e3" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='MMERGE6';ftypes[6]='url';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
 					  </div>
 					  <div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -209,7 +344,7 @@
 				<button type="button" class="btn btn-primary btn-lg btncolor3" data-toggle="modal" data-target="#myModal">
 				  FREE SCAN NOW!
 				</button>
-				
+
 				<!-- Modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				  <div class="modal-dialog" role="document">
@@ -219,7 +354,50 @@
 						<h4 class="modal-title" id="myModalLabel"></h4>
 					  </div>
 					  <div class="modal-body ptext">
-						...
+						<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://wordpressurgentcare.us4.list-manage.com/subscribe/post?u=909259ef84b6ac78fb169be84&amp;id=34e12b29e3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Submit</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-PHONE">Phone Number </label>
+	<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+</div>
+<div class="mc-field-group">
+	<label for="mce-MMERGE6">Website </label>
+	<input type="url" value="" name="MMERGE6" class=" url" id="mce-MMERGE6">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_909259ef84b6ac78fb169be84_34e12b29e3" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='MMERGE6';ftypes[6]='url';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
 					  </div>
 					  <div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -231,12 +409,12 @@
 		</div>
 		</div>
 		<div class="container">
-				<div class="row grade2">
+				<div class="row grade2 space">
 					<div class="col-md-12">
 						<h2 class="anton">Extened Care</h2>
 					</div>
 					<div class="col-md-12">
-						<p class="words">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quaerat, sit, exercitationem temporibus ratione ex natus inventore explicabo, beatae nemo quidem quasi sapiente amet quod!</p>
+						<p class="words">After your initial assessment, review and if necessary, recovery of your site, you can choose an Extended Care program that fits your company or organizations needs to help prevent malicious attacks on your site. We offer security assessments and provide preventative measures to thwart future attacks. Select an option below for more information or speak with one of our expert advisors.</p>
 					</div>
 				</div>
 			</div>
@@ -251,7 +429,7 @@
                   <h2>Emergency Room</h2>
                 </div>
                 <div class="price">
-                  <h4><sup>$</sup>50</h4>
+                  <h4><sup>$</sup>/Hourly</h4>
                 </div>
                 <div class="option">
                   <ul>
@@ -330,11 +508,11 @@
                     </li>
                     <li>
                       <i class="fa fa-check" aria-hidden="true"></i>Speed Optimization
-                    
+
                     </li>
                     <li>
                       <i class="fa fa-check" aria-hidden="true"></i> 24/7 Uptime Monitoring
-                    
+
                     </li>
                     <li>
                       <i class="fa fa-check" aria-hidden="true"></i>Emergency Support
@@ -361,16 +539,16 @@
 				</div>
 				<div class="col-md-4">
 					<div class="row">
-						<p class="words">Click on the links to view our social media platforms!</p>
+						<p class="words">For alerts and updates, be sure to follow WordPress Urgent Care on your choice of social media:</p>
 					</div>
 					<div class="row">
 							<div class="col-md-3">
-									<a href="">
+									<a href="https://www.facebook.com/Wordpress-Urgent-Care-109676763754877/"  target="_blank">
 										<i class="fab fa-facebook-square fa-3x"></i>
 									</a>
 								</div>
 								<div class="col-md-3">
-									<a href="">
+									<a href="https://www.linkedin.com/in/jason-cooksey-6a843a193/"  target="_blank">
 										<i class="fab fa-linkedin fa-3x"></i>
 									</a>
 								</div>
@@ -380,10 +558,10 @@
 									</a>
 								</div>
 								<div class="col-md-3">
-									<a href="">
+									<a href="https://www.instagram.com/wordpress_urgent_care/" target="_blank">
 										<i class="fab fa-instagram fa-3x"></i>
 									</a>
-								</div>		
+								</div>
 					</div>
 				</div>
 				<div class="col-md-4"></div>
@@ -397,4 +575,3 @@
     <!-- End JavaScript Section -->
   </body>
 </html>
-
