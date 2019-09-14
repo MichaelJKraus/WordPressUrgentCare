@@ -479,7 +479,7 @@ input {
 
 /* Starting Footer */
 footer {
-  height: 100px;
+  height: 125px;
   background-color: #073763;
   background: -moz-radial-gradient(circle, #999999, #45818e, #073763);
 }
