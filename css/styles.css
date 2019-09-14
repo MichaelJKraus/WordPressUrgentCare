@@ -483,6 +483,9 @@ footer {
   background-color: #073763;
   background: -moz-radial-gradient(circle, #999999, #45818e, #073763);
 }
+.footer__background{
+  background-color: #073763;
+}
 .logo {
   height: 97px;
 }
@@ -493,6 +496,9 @@ footer {
 }
 .fab {
   color: #45818e;
+}
+.footer__social{
+  display: inline-block;
 }
 /* Ending Footer */
 
